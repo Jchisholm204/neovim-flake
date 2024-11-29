@@ -90,6 +90,10 @@ with final.pkgs.lib; let
     clang-tools
     clang
     ccls
+    gcc
+    libgcc
+    libstdcxx5
+    glibc
     rust-analyzer
     python3
     nodejs_22
