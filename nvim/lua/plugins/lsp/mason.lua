@@ -24,7 +24,7 @@ return {
             ensure_installed = {
                 'lua_ls',
                 -- C/C++ Languager Servers
-                'clangd',
+               -- 'clangd',
                 'cmake',
                 'arduino_language_server',
                 -- Rust
@@ -32,7 +32,7 @@ return {
                 -- Bash
                 'bashls',
                 -- Assembly Language LSP
-                'asm_lsp',
+                -- 'asm_lsp',
                 -- Latex LSP
                 'ltex',
                 -- 'bufls',
