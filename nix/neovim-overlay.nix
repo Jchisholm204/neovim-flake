@@ -86,6 +86,15 @@ with final.pkgs.lib; let
   extraPackages = with pkgs; [
     # language servers, etc.
     lua-language-server
+    libclang
+    clang-tools
+    rust-alalyzer
+    python3
+    nodejs_22
+    rustup
+    openssl
+    openssl_3_3
+    pkg-config
     nil # nix LSP
   ];
 in {
