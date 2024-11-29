@@ -53,6 +53,19 @@ return {
                 })
             end,
         })
+        
+        lspconfig.lua_ls.setup){
+            capabilities = capabilities
+        }
+
+        lspconfig.ccls.setup({
+            capabilities = capabilities
+        })
+        
+        lspconfig.marksman.setup({
+            capabilities = capabilities
+        })
+
         vim.diagnostic.config({
             update_in_insert = true,
         })
