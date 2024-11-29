@@ -89,6 +89,7 @@ with final.pkgs.lib; let
     libclang
     clang-tools
     clang
+    ccls
     rust-analyzer
     python3
     nodejs_22
