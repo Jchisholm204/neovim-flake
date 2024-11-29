@@ -54,9 +54,9 @@ return {
             end,
         })
         
-        lspconfig.lua_ls.setup){
+        lspconfig.lua_ls.setup({
             capabilities = capabilities
-        }
+        })
 
         lspconfig.ccls.setup({
             capabilities = capabilities
