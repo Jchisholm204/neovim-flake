@@ -88,7 +88,7 @@ with final.pkgs.lib; let
     lua-language-server
     libclang
     clang-tools
-    rust-alalyzer
+    rust-analyzer
     python3
     nodejs_22
     rustup
